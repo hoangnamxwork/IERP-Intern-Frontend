@@ -1,0 +1,53 @@
+.background{
+    height: 100vh;
+    min-height: fit-content;
+    background: url('../../../assets/img/christian-wiediger-sax9kbf6fvc-unsplash.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.panel-heading{
+    text-align: center;
+    margin-bottom: 10px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    cursor: pointer;
+}
+.btn{
+    margin-top: 20px;
+    border-radius: 2px;
+}
+.panel{
+    min-height: 360px;
+    border-radius: 12px;
+    margin-top: 100px;
+}
+.input-field{
+    border-radius: 2px;
+    padding:5px;
+    display:flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+}
+.input-field.error{
+    border: 1px solid red;
+    color:red;
+}
+input[type='text'],input[type='password']{
+    border:none;
+    outline:none;
+    box-shadow: none;
+    width: 100%;
+}
+.fa-eye-slash.btn{
+    border:none;
+    outline:none;
+    box-shadow: none;
+}
+.mandatory{
+    color: red;
+}

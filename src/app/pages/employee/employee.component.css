@@ -1,0 +1,14 @@
+#editModal{
+  z-index: 1000 ; 
+  top: 10%;
+  overflow: visible;
+}
+
+.container{
+  z-index: 999;
+}
+
+button{
+  margin-right: 12px;
+}
+
